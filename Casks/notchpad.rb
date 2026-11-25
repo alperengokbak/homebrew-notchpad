@@ -4,7 +4,7 @@ cask "notchpad" do
 
   url "https://github.com/alperengokbak/notchpad/releases/download/v#{version}/Notchpad-#{version}.zip"
   name "Notchpad"
-  desc "Turns the notch into a panel with music, reminders, files, a focus timer and more"
+  desc "Notch panel with music, reminders, files, a focus timer and more"
   homepage "https://github.com/alperengokbak/notchpad"
 
   livecheck do
@@ -12,7 +12,7 @@ cask "notchpad" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Notchpad.app"
 
