@@ -1,6 +1,6 @@
 cask "notchpad" do
-  version "1.6.1"
-  sha256 "9319ada04285dcf938aa3272cb789c518098bb8b88d25d1274957dc6df9b4843"
+  version "1.7.0"
+  sha256 "32581804565612c259d44851f2a22365aa4cce8388a504fcec0622ff4bbee331"
 
   url "https://github.com/alperengokbak/notchpad/releases/download/v#{version}/Notchpad-#{version}.zip"
   name "Notchpad"
